@@ -1,20 +1,21 @@
 {
-	"Head": "",
-	"secondHead": "",
+	"Head": "Head1",
+	"secondHead": "Head2",
+
 	"active": true,
 	"topDeals": [
         {
-            "name": "A pre-fabricated home in a shipping container
-",
-			"price": 36.00 ,
-			"description": "Who says you have to pay exorbitant broker fees to find the home of your dreams? You can make your dreams of homeownership come true as easily as you’d buy a bottle of dish soap, thanks to this storage-container-turned-house, available for a cool $36K. And before you sign off on a mortgage, brush up on thes",
-			"features": [
-
-				"extra gift",
-				"best quality"
-			],
-			"image": "tiny-home.jpg"
-        },
+		"name": "j uh",
+"price":23 ,
+"description": "vhj b",
+"fectures": [
+" jhk",
+"Greate Gift for cat lovers",
+" hikjl",
+"designed to last"
+],
+"image": "live-ladybugs.jpg"
+},
            {
             "name": "1,500 live ladybugs",
 			"price": 45.00,
@@ -37,6 +38,6 @@
 
 			],
 			"image": "uranium-ore.jpg"
-        }
+		}
 	]
 }
