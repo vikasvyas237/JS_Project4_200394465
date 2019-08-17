@@ -9,7 +9,10 @@
         height: 400px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
        }
-
+img {
+	height: 50%;
+	width: 60%;
+}
        h3 {
        	text-align: center;
        	color: white;
@@ -124,7 +127,7 @@ function topDeals(jsonObj){
 
 		// Set all property for each element based on JSON
 
-		img.setAttribute('src', 'https://github.com/vikasvyas237/JS_Project4_200394465/tree/master/images' + dealsOfDay[i].image);
+		img.setAttribute('src', 'https://raw.githubusercontent.com/vikasvyas237/JS_Project4_200394465/master/images/' + dealsOfDay[i].image);
 		img.setAttribute('alt', dealsOfDay[i].name);
 
 		h2.textContent = dealsOfDay[i].name;
@@ -174,7 +177,7 @@ function initMap(){
 </script>
 
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQwtqgTw9QY-dzLQINWCbaXPPnQH_gxws&callback=initMap">
 </script>
 
 
