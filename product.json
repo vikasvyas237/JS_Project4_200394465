@@ -16,28 +16,32 @@
 ],
 "image": "live-ladybugs.jpg"
 },
-           {
-            "name": "1,500 live ladybugs",
-			"price": 45.00,
-			"description": "Who says you can’t buy anything for under $10 anymore? In fact, Amazon shoppers can buy 1,500 crawling, flying somethings for the bargain price of a latte.",
-			"features": [
-				"Okayish",
 
-				"Nice weird gift"
-			],
-			"image": "live-ladybugs.jpg"
-        },
-           {
-            "name": "Uranium ore",
-			"price":39.95,
-			"description": "While this small amount of uranium ore is pretty low on the radioactivity meter, it’s pretty weird that you can buy it from the same site where you get your gym socks. And for more possessions to ditch, discover these",
-			"features": [
+{
+"name": "j uh",
+"price":23 ,
+"description": "vhj b",
+"fectures": [
+" jhk",
+"Greate Gift for cat lovers",
+" hikjl",
+"designed to last"
+],
+"image": "live-ladybugs.jpg"
+},
 
-				"Strong gift",
-				"durable"
+{
+"name": "j uh",
+"price":23 ,
+"description": "vhj b",
+"fectures": [
+" jhk",
+"Greate Gift for cat lovers",
+" hikjl",
+"designed to last"
+],
+"image": "live-ladybugs.jpg"
+}
 
-			],
-			"image": "uranium-ore.jpg"
-		}
 	]
 }
