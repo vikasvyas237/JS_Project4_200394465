@@ -42,7 +42,7 @@ var section = document.querySelector('section');
 
 // Json file on server and request URL
 
-var requestURL = 'https://api.myjson.com/bins/ritv3';
+var requestURL = 'https://raw.githubusercontent.com/vikasvyas237/JS_Project4_200394465/master/product.json';
 
 // Create a new object
 var request = new XMLHttpRequest();
@@ -65,16 +65,16 @@ request.send();
 request.onload = function() {
 
 	// declare variable for header
-	var weirdDeals = request.response;
+	var weiedDeals = request.response;
 
-	// console for weird
-	console.log(weirdDeals);
+	// console for weied
+	console.log(weiedDeals);
 
 	//Main Header
-	mainHeader(weirdDeals);
+	mainHeader(weiedDeals);
 
-	//Top Weird Deals
-	topDeals(weirdDeals);
+	//Top Weied Deals
+	topDeals(weiedDeals);
 }
 
 
@@ -134,16 +134,16 @@ function topDeals(jsonObj){
 
 
 		// Declaration of variable for features
-		var features = dealsOfDay[i].features;
+		var fectures = dealsOfDay[i].fectures;
 
 
 
 		//For loop for list item
-		for (var j = 0; j < features.length; j++){
+		for (var j = 0; j < fectures.length; j++){
 
 		var productItem = document.createElement('li');
 
-		productItem.textContent = features[j];
+		productItem.textContent = fectures[j];
 		list.appendChild(productItem);
 		}
 
